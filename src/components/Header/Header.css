@@ -1,20 +1,33 @@
-.header{
-    text-align: center;
+.header {
+  text-align: center;
 }
-.logo{
-    height: 50px;
+.logo {
+  height: 50px;
 }
 .header nav {
-    background-color: black;
-    line-height: 40px;
+  background-color: black;
+  line-height: 40px;
 }
-.header nav a{
-    text-decoration: none;
-    color: white;
-    margin-right: 20px;
-    padding: 5px;
-    font-size: 20px;
+.header nav a {
+  text-decoration: none;
+  color: white;
+  margin-right: 20px;
+  padding: 5px;
+  font-size: 20px;
 }
-.header nav a:hover{
-    background-color: lightgray;
+.header nav a:hover {
+  background-color: lightgray;
+}
+
+.logButton {
+  padding: 0;
+  border: none;
+  background: none;
+  color: white;
+  margin-left: 20px;
+  font-size: 20px;
+}
+.logButton:hover {
+  background-color: lightgray;
+  line-height: 40px;
 }
